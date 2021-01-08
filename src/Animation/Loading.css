@@ -1,0 +1,206 @@
+.Loading {
+  width: 75%;
+  height: 100vh;
+  margin: 0 auto;
+  background: lawngreen;
+  opacity: 0.5;
+  color: #fff;
+  -webkit-animation: loading 2s ease-in-out 1;
+          animation: loading 2s ease-in-out 1;
+}
+
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+
+@keyframes loading {
+  0% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+
+.Loading .nav {
+  background-color: lawngreen;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 75%;
+  margin: 0 auto;
+  height: 10%;
+  border-radius: 0px 0px 50px 10px;
+  border: 4px ridge #ccc;
+  -webkit-animation: navbar 2s linear 1;
+          animation: navbar 2s linear 1;
+}
+
+@-webkit-keyframes navbar {
+  0% {
+  }
+}
+
+@keyframes navbar {
+  0% {
+  }
+}
+
+.Loading .nav li {
+  cursor: pointer;
+}
+
+.Loading .nav li:hover {
+  background-color: red;
+  color: #fff;
+  border-radius: 5px;
+  border: 12px ridge black;
+}
+
+.Loading .body {
+  background: #6e6e6e;
+  height: 50%;
+  width: 75%;
+  margin: 0 auto;
+  color: aqua;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-animation: body 3s ease-in-out 1;
+          animation: body 3s ease-in-out 1;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+@-webkit-keyframes body {
+  0% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes body {
+  0% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.Loading .info {
+  height: 30%;
+  width: 50%;
+  background: #fff;
+  color: red;
+  border: 2px ridge green;
+  -webkit-box-shadow: 10px 10px 10px #fff;
+          box-shadow: 10px 10px 10px #fff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
+
+.Loading .info h4 {
+  border: 1px dashed blue;
+  background: #098765;
+  width: 50%;
+  border-radius: 5px;
+  -webkit-animation: h4 2s ease-in-out 1;
+          animation: h4 2s ease-in-out 1;
+}
+
+@-webkit-keyframes h4 {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+@keyframes h4 {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+.Loading footer {
+  background: #ddd;
+  color: purple;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 10%;
+}
+
+.Loading footer li {
+  list-style: none;
+  cursor: pointer;
+  border: 2px inset red;
+}
+/*# sourceMappingURL=Loading.css.map */

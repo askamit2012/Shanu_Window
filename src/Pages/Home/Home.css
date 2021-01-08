@@ -1,0 +1,14 @@
+.Home {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    /* max-width: 600px; */
+    color: red;
+    background-color: aqua;
+    background: url('../../Assets/home_main.jpg') center center;
+    background-size: cover;
+    background-color: aqua;
+    /* background-position: cover; */
+}
